@@ -135,6 +135,8 @@ with st.form("triage_form"):
     c5, _, _, _ = st.columns(4)
     with c5:
         skin_rash = st.checkbox("🔴  Skin Rash")
+    with c6:
+        skin_burnt = st.checkbox("🔥  Skin Burnt")
 
     st.markdown("<br>", unsafe_allow_html=True)
 
