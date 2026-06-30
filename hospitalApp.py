@@ -95,10 +95,10 @@ st.markdown("""
     </div>
     <div style="font-size:36px;font-weight:700;color:#ffffff;margin-bottom:12px;
                 letter-spacing:-0.02em;">
-        Smart Hospital Patient Navigator
+        Hospital Department Predictor
     </div>
     <div style="font-size:18px;color:rgba(255,255,255,0.85);font-weight:400;">
-        Find the Right Department for Your Symptoms
+        AI-based website developed by Hari to help you choose the correct Department to go to
     </div>
 </div>
 """, unsafe_allow_html=True)
