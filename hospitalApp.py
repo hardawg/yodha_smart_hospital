@@ -4,7 +4,7 @@ import pickle
 import os
 import numpy as np
 
-st.set_page_config(page_title="Smart Hospital Patient Navigator", page_icon="🏥", layout="wide")
+st.set_page_config(page_title="Smart Hospital Patient Navigator", page_icon="🪦", layout="wide")
 
 st.markdown("""
     <style>
@@ -74,12 +74,12 @@ DEPT_INFO = {
         'next':['Visit Level 4, Wing A','Estimated wait: 25–35 min','Bring list of current medications']
     },
     'General Medicine': {
-        'icon':'🩺','color':'#059669','bg':'#d1fae5','border':'#6ee7b7',
+        'icon':'🧑‍⚕️','color':'#059669','bg':'#d1fae5','border':'#6ee7b7',
         'desc':'Handles general health concerns and non-specialist conditions.',
         'next':['Visit Level 1, Wing A','Estimated wait: 10–15 min','Registration desk is open 24/7']
     },
     'Dermatology': {
-        'icon':'🔬','color':'#b45309','bg':'#fef9c3','border':'#fde68a',
+        'icon':'💇','color':'#b45309','bg':'#fef9c3','border':'#fde68a',
         'desc':'Specialises in skin, hair, and nail conditions.',
         'next':['Visit Level 2, Wing D','Estimated wait: 15–20 min','Bring photos of affected area if possible']
     },
